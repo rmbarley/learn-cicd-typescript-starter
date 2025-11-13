@@ -30,6 +30,6 @@ describe("getApiKey", () => {
       authorization: "ApiKey test",
     } as unknown as IncomingHttpHeaders;
 
-    expect(getAPIKey(testHeaders)).toBe("tt");
+    expect(getAPIKey(testHeaders)).toBe("test");
   });
 });
